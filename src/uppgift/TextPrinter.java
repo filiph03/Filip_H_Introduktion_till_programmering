@@ -32,7 +32,7 @@ public class TextPrinter {
     }
     public int getCountWords() {
         String text = myArrayList.toString();
-        return text.split("\\s+").length; ////Skriver ut ord och även separerade med blanksteg
+        return text.split("\\s+").length; //Skriver ut ord och även separerade med blanksteg
     }
     public String getLongestWord() {
         String text = myArrayList.toString();
